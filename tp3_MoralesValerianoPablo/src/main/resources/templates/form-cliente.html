@@ -12,21 +12,71 @@
 
 	<form action="#" method="post">
 	
-	<label for="dni">DNI:</label>
-	<input type="number" id="dni" name="dni" required="required"><br>
-	
-	<label for="nombres">Nombres:</label>
-	<input type="text" id="nombres" name="nombres" required><br>
-	
-	<label for="fechaNacimiento">Fecha de Nacimiento:</label>
-	<input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
-	
-	<label for="provincia">Provincia:</label>
-	<select id="provincia" name="provincia" required>
-		<option value="JUJUY">Jujuy</option>
-		<option value="SALTA">Salta</option>
-		<option value="TUCUMAN">Tucuman</option>
-	</select>
+		<label for="dni">DNI:</label>
+		<input type="number" id="dni" name="dni" required="required"><br>
+		
+		<label for="apellidos">Nombres:</label>
+		<input type="text" id="apellidos" name="apellidos" required><br>
+		
+		<label for="nombres">Nombres:</label>
+		<input type="text" id="nombres" name="nombres" required><br>
+		
+		<label for="fechaNacimiento">Fecha de Nacimiento:</label>
+		<input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
+		
+		<h4>Selecciona tu género:</h4>
+		<input type="radio" id="masculino" name="genero" value="masculino">
+		<label for="masculino">Masculino</label><br>
+		
+		<input type="radio" id="femenino" name="genero" value="femenino">
+		<label for="femenino">Femenino</label><br>
+		
+		<input type="radio" id="x" name="genero" value="otro">
+		<label for="x">X</label><br>
+			
+		<label for="email">Correo electrónico:</label><br>
+		<input type="email" id="email" name="email" required><br>
+		
+		<h4>Domicilio:</h4>
+		<label for="calle">Calle:</label>
+		<input type="text" id="calle" name="calle" required><br>
+		
+		<label for="numeroPuerta">Numero:</label>
+		<input type="number" id="numeroPuerta" name="numeroPuerta" required="required"><br>
+		
+		<label for="barrio">Barrio:</label>
+		<input type="text" id="barrio" name="barrio" required><br>
+		
+		<label for="ciudad">Ciudad:</label>
+		<input type="text" id="ciudad" name="ciudad" required><br>
+		
+		<label for="provincia">Provincia:</label>
+		<select id="provincia" name="provincia" required>
+			<option value="JUJUY">Jujuy</option>
+			<option value="SALTA">Salta</option>
+			<option value="TUCUMAN">Tucuman</option>
+		</select>
+		
+		<label for="celular">Celular:</label>
+		<input type="number" id="celular" name="celular" required><br>
+		
+		<h4>Selecciona interes:</h4>
+		<input type="checkbox" id="aplicacionesWeb" name="categoria" value="aplicacionesWeb">
+		<label for="aplicacionesWeb">Aplicaciones Web</label><br>
+		
+		<input type="checkbox" id="aplicacionesEscritorio" name="categoria" value="aplicacionesEscritorio">
+		<label for="aplicacionesEscritorio">Aplicaciones de Escritorio</label><br>
+		
+		<input type="checkbox" id="videoJuegos" name="categoria" value="videoJuegos">
+		<label for="videoJuegos">Video Juegos</label><br>
+		
+		<input type="checkbox" id="dataScience" name="categoria" value="dataScience">
+		<label for="dataScience">Data Science</label><br>		
+		
+		<label for="sugerencias">Ingrese sugerencias:</label><br>
+		<textarea id="sugerencias" name="sugerencias" rows="10" cols="100"></textarea><br>		
+		
+		
 	</form>
 
 </body>
